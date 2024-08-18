@@ -1,0 +1,76 @@
+// vlozeni font pravidel pro projekt 👇👇👇 font.ttf znamena TrueTypeFont
+// Variabilni
+@font-face {
+  font-family: "Alkatra";
+  src: url(../fonts/Alkatra/static/Alkatra-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Include any default variable overrides here (though functions won't be available)
+
+// <- tady (nad @importem) je mozne vkladat css atributy pro prepsani hodnot puvodnich atributu
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// ⚠️bootstrap.scss -> musí byt uvedena přípona (bez přípony to někdy soubor nenajde a hlásí chybu)
+// <- tady (pod @importem) se vypisuji nove vlastne vymyslene css atributy
+
+// Then add additional custom code here
+
+body {
+  color: #ebe5e5;
+  font-family: "Alkatra";
+}
+
+.lightGrey-bg {
+  background-color: #ebe5e5;
+}
+.lightGrey {
+  color: #ebe5e5;
+}
+
+.darkGreen-bg {
+  background-color: #6b7a07;
+}
+
+.darkGreen {
+  color: #6b7a07;
+}
+
+.lightGreen-bg {
+  background-color: #ada400;
+}
+
+.lightGreen {
+  color: #ada400;
+}
+
+.yellow-bg {
+  background-color: #f5a708;
+}
+
+.yellow {
+  color: #f5a708;
+}
+
+.nav-link,
+.active {
+  color: #ebe5e5;
+}
+
+table {
+  border: none;
+  color: #ada400;
+}
+
+@media screen and (min-width: 305px) {
+  iframe {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 304px) {
+  iframe {
+    margin-top: 40px;
+  }
+}

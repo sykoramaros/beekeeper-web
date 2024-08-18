@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sykora Marosh</title>
+    <link href="/scss/custom.css" rel="stylesheet" />
+    <!-- <style>
+      body * {
+        border: 1px solid #0000ff5f;
+      }
+    </style> -->
+  </head>
+  <!-- VCELARSTVI A PRODEJ MEDU -->
+  <body class="lightGrey-bg">
+    <div
+      style="
+        background-image: url(/img/HD-wallpaper-honeycomb-and-bee-bee-honey-fresh-sweet.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        padding-bottom: 12rem;
+      "
+      class="shadow-lg"
+    >
+      <section>
+        <header>
+          <nav
+            class="navbar navbar-expand-sm darkGreen-bg shadow-sm p-2 mb-5 rounded-bottom-4"
+          >
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <img
+                    src="/img/Hornet Hive-595b40b65ba036ed117d4246.svg"
+                    style="width: 45px"
+                  />
+                </div>
+                <div class="col mt-2">
+                  <a class="navbar-brand lightGrey fs-3" href="#">Vcelarstvi</a>
+                </div>
+              </div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- HORNI VYBER -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" style="margin-left: auto">
+                  <li class="nav-item">
+                    <a class="nav-link lightGrey" aria-current="page" href="#"
+                      >O nas</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Co delame</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cenik</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Kontakty</a>
+                  </li>
+                  <li>
+                    <!-- SPINAC -->
+                    <button
+                      type="button"
+                      class="btn btn-md yellow-bg lightGrey"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                      data-bs-whatever="@mdo"
+                    >
+                      Koupit
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </section>
+
+      <!-- 1.SECTION -->
+      <section
+        class="custom__header-banner d-flex justify-content-center align-items-center"
+      >
+        <div>
+          <div
+            class="custom__header-content container text-white text-center mt-5 p-5 rounded-5"
+            style="background: rgba(255, 255, 255, 0.196)"
+          >
+            <h1 class="text-uppercase display-1">Vcelarstvi</h1>
+            <h3 class="text-uppercase display-3">jak ma byt</h3>
+            <p class="d-none d-md-block fs-2 mt-2">Ochutnejte nas med</p>
+
+            <!-- SPINAC -->
+            <button
+              type="button"
+              class="btn btn-lg btn-primary darkGreen-bg text-uppercase px-5"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo"
+            >
+              Koupit
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- 2.SECTION -->
+    <!-- CAROUSEL + TEXT -->
+    <section style="margin-top: 50px; margin-bottom: 20px">
+      <div class="container-xl">
+        <div class="row">
+          <div
+            id="carouselExampleInterval "
+            class="carousel slide data-bs-ride col-xs-12 col-sm-12 col-md-7 col-xl-7"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="/img/HD-wallpaper-insects-bee-flower-insect-macro-wildlife.jpg"
+                  class="d-block w-100"
+                  alt="vcelka a kvetina"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="/img/HD-wallpaper-nature-insects-macro-insect-bee-animal-honey-honeycomb.jpg"
+                  class="d-block w-100"
+                  alt="vcelka na ulu"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/cell-honey-spoon-bank-wallpaper-preview.jpg"
+                  class="d-block w-100"
+                  alt="sklenice med a plastve medu na stole"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-5 col-xl-5 m-auto darkGreen">
+            <p class="m-3 fs-3">
+              Lorem ipsum dolor sit amet.<span class="fs-1">
+                Lorem, ipsum dolor. </span
+              >Lorem ipsum dolor sit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div name="predel" style="border: 2px solid" class="yellow mx-5"></div>
+
+    <!-- 3.SECTION -->
+    <!-- 3 OBRAZKY -->
+    <section style="margin-top: 40px; margin-bottom: 40px">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <img
+              src="/img/vcelky.jpg"
+              class="d-none d-sm-none d-xs-block d-md-block d-lg-block mx-auto img-fluid"
+              alt="vcelky"
+            />
+            <p class="text-center fs-3 darkGreen py-3">
+              Mame nejlepsi ZAMESTNANCE
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="/img/louka.jpg"
+              class="d-none d-sm-none d-xs-block d-md-block d-lg-block d-flex mx-auto img-fluid"
+              alt="vcelky"
+            />
+            <p class="text-center fs-3 darkGreen py-3">
+              Mame nejlepsi DODAVATELE
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="/img/slunce.jpg"
+              class="d-none d-sm-none d-xs-block d-md-block d-lg-block d-flex mx-auto img-fluid"
+              alt="vcelky"
+            />
+            <p class="text-center fs-3 darkGreen py-3">Mame nejlepsi ZDROJE</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4.SECTION -->
+    <section style="margin-bottom: 40px">
+      <div class="container-sm">
+        <div class="row">
+          <div class="col">
+            <table style="text-align: center; margin: 0 auto; width: 100%">
+              <thead class="lightGrey">
+                <tr class="darkGreen-bg">
+                  <th>#</th>
+                  <th>Produkt</th>
+                  <th>Cena</th>
+                </tr>
+              </thead>
+              <tbody class="yellow">
+                <tr>
+                  <td>1</td>
+                  <td>Vceli med</td>
+                  <td>250 kc</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Vceli pyl</td>
+                  <td>60 kc</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Materi kasicka</td>
+                  <td>120 kc</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div name="predel" style="border: 2px solid" class="yellow mx-5"></div>
+
+    <!-- 5.SECTION -->
+    <section style="margin-top: 40px">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-xs-12 col-sm-12 col-md-6 col-xl-6 lightGreen-bg rounded-4 p-4 shadow"
+          >
+            <div class="bd-example darkGreen">
+              <span class="fs-1">Kontakty</span>
+              <address>
+                <strong class="fs-3">Here comes the sun</strong>
+                <br />
+
+                1123 Bee Happy St,
+                <br />
+
+                Sturge Island
+                <br />
+                <abbr title="Phone">P:</abbr>
+                (123) 456-7890
+              </address>
+              <address>
+                <strong class="fs-5">Vcelarstvi</strong>
+                <br />
+                <a href="mailto:just.fly@example.com" class="yellow"
+                  >just.fly@example.com</a
+                >
+              </address>
+            </div>
+            <form>
+              <span>KONTAKTNI FORMULAR</span>
+              <div class="mb-3">
+                <label for="inputName" class="lightGrey"> Jmeno </label>
+                <input type="text" class="form-control" placeholder="Jmeno" />
+                <label for="inputEmail" class="lightGrey"> Email </label>
+                <input type="email" class="form-control" placeholder="Email" />
+                <div class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea2"
+                    style="height: 100px"
+                  ></textarea>
+                  <label for="floatingTextarea2">Napiste zpravu</label>
+                </div>
+              </div>
+              <!-- SPINAC -->
+              <button
+                type="button"
+                class="btn btn-lg yellow-bg lightGrey"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                data-bs-whatever="@mdo"
+              >
+                Koupit
+              </button>
+            </form>
+          </div>
+          <div
+            class="mt-xs-5 mt-sm-5 mt-md-0 mt-xl-0 col-xs-12 col-sm-12 col-md-6 col-xl-6"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196029.80202270093!2d164.15385183983437!3d-67.42777354357892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaf347c97ea042e95%3A0xd5f97428164c9036!2sSturge%20Island!5e0!3m2!1scs!2scz!4v1722254177686!5m2!1scs!2scz"
+              width="100%"
+              height="400px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="rounded-4"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="mdb-footer" class="mt-5 darkGreen-bg rounded-top-5">
+      <div class="container-md py-3">
+        <div class="text-center">
+          <p class="">
+            Get useful tips & free resources directly to your inbox along with
+            exclusive subscriber-only content.
+          </p>
+          <!-- SPINAC -->
+          <button
+            type="button"
+            class="btn btn-lg yellow-bg lightGrey"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo"
+          >
+            Koupit
+          </button>
+        </div>
+      </div>
+
+      <div class="text-center p-3 copyright">
+        © 2023 Copyright:
+        <a class="lightGreen" style="text-shadow: 2px 0px 2px black" href="">
+          <strong>Marosh Sykora</strong></a
+        >
+      </div>
+    </footer>
+
+    <!-- MODAL -->
+    <section>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Book yourn journey
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="row">
+                  <div class="mb-3">
+                    <label for="email" class="col-form-label"
+                      >Email address</label
+                    >
+                    <input type="email" class="form-control" id="email" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label"
+                      >Your name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="recipient-name"
+                    />
+                  </div>
+                  <div class="row">
+                    <div class="mb-3 col-6">
+                      <label for="recipient-name" class="col-form-label"
+                        >From</label
+                      >
+                      <input
+                        type="date"
+                        class="form-control"
+                        id="recipient-name"
+                      />
+                    </div>
+                    <div class="mb-3 col-6">
+                      <label for="recipient-name" class="col-form-label"
+                        >To</label
+                      >
+                      <input
+                        type="date"
+                        class="form-control"
+                        id="recipient-name"
+                      />
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label"
+                      >Number of travellers</label
+                    >
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="recipient-name"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Book</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
