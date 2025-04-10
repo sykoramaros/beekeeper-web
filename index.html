@@ -21,8 +21,10 @@
         background-position: top;
         width: 98.9vw;
         height: 100vh;
+        mask-image: linear-gradient(to bottom,
+        black 60%,
+        transparent 100%);
       "
-      class="shadow-lg"
     >
       <section>
         <header>
@@ -89,13 +91,13 @@
           </nav>
         </header>
       </section>
-
+    </div>
       <!-- 1.SECTION -->
       <section
-        class="d-flex justify-content-end align-items-end h-100"
+        class="d-flex justify-content-end align-items-end h-100 position-absolute top-0 end-0"
       >
           <div
-            class="text-white text-end mb-5 m-3 m-sm-5"
+            class="text-white text-end m-3 m-sm-5"
           >
             <h1 class="text-uppercase display-1">Včelařství</h1>
             <h3 class="text-uppercase lightGrey display-3">u lesa</h3>
@@ -105,7 +107,7 @@
             <!-- SPINAC -->
             <button
               type="button"
-              class="btn btn-lg btn-primary darkGreen-bg text-uppercase px-5"
+              class="btn btn-lg btn-secondary darkGreen-bg text-uppercase px-5"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               data-bs-whatever="@mdo"
@@ -114,7 +116,6 @@
             </button>
           </div>
       </section>
-    </div>
 
     <!-- 2.SECTION -->
     <!-- CAROUSEL + TEXT -->
@@ -188,12 +189,12 @@
 
     <!-- 3.SECTION -->
     <!-- 3 OBRAZKY -->
-    <section class="container" style="margin-top: 80px;">
+    <section class="container-sm" style="margin-top: 80px;">
         <div class="row">
           <div class="col-12 col-md-4">
             <img
               src="./img/vcelky.jpg"
-              class="d-block mx-auto img-fluid w-100"
+              class="d-block mx-auto img-fluid w-100 rounded-circle shadow"
               alt="vcelky"
             />
             <p class="text-center fs-3 darkGreen py-3">
@@ -203,7 +204,7 @@
           <div class="col-12 col-md-4">
             <img
               src="./img/louka.jpg"
-              class="d-block mx-auto img-fluid w-100"
+              class="d-block mx-auto img-fluid w-100 rounded-circle shadow"
               alt="vcelky"
             />
             <p class="text-center fs-3 darkGreen py-3">
@@ -213,7 +214,7 @@
           <div class="col-12 col-md-4">
             <img
               src="./img/slunce.jpg"
-              class="d-block mx-auto img-fluid w-100"
+              class="d-block mx-auto img-fluid w-100 rounded-circle shadow"
               alt="vcelky"
             />
             <p class="text-center fs-3 darkGreen py-3">
@@ -224,7 +225,7 @@
     </section>
 
     <!-- 4.SECTION -->
-    <section style="margin-bottom: 40px">
+    <section style="margin-top: 80px">
       <div class="container-sm">
         <div class="row">
           <div class="col">
@@ -262,7 +263,7 @@
     <div style="border: 2px solid" class="yellow mx-5"></div>
 
     <!-- 5.SECTION -->
-    <section style="margin-top: 40px">
+    <section style="margin-top: 80px">
       <div class="container">
         <div class="row">
           <div
