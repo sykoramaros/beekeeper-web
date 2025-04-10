@@ -19,14 +19,15 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
-        padding-bottom: 12rem;
+        width: 98.9vw;
+        height: 100vh;
       "
       class="shadow-lg"
     >
       <section>
         <header>
           <nav
-            class="navbar navbar-expand-sm darkGreen-bg shadow-sm p-2 mb-5 rounded-bottom-4"
+            class="navbar navbar-expand-sm darkGreen-bg shadow-sm rounded-bottom-4 fixed-top"
           >
             <div class="container-fluid">
               <div class="row">
@@ -34,10 +35,11 @@
                   <img
                     src="./img/HornetHive-595b40b65ba036ed117d4246.svg"
                     style="width: 45px"
+                    alt="logo"
                   />
                 </div>
                 <div class="col mt-2">
-                  <a class="navbar-brand lightGrey fs-3" href="#">Vcelarstvi</a>
+                  <a class="navbar-brand lightGrey fs-3 my-auto" href="#">Včelařství</a>
                 </div>
               </div>
               <button
@@ -54,26 +56,26 @@
 
               <!-- HORNI VYBER -->
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto" style="margin-left: auto">
+                <ul class="navbar-nav ms-auto my-auto fs-5 gap-1">
                   <li class="nav-item">
                     <a class="nav-link lightGrey" aria-current="page" href="#"
                       >O nas</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Co delame</a>
+                    <a class="nav-link" href="#">Co děláme</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Cenik</a>
+                    <a class="nav-link" href="#">Ceník</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Kontakty</a>
                   </li>
-                  <li>
+                  <li class="nav-item ms-sm-2">
                     <!-- SPINAC -->
                     <button
                       type="button"
-                      class="btn btn-md yellow-bg lightGrey"
+                      class="btn btn-md yellow-bg darkGreen"
                       data-bs-toggle="modal"
                       data-bs-target="#exampleModal"
                       data-bs-whatever="@mdo"
@@ -90,16 +92,15 @@
 
       <!-- 1.SECTION -->
       <section
-        class="custom__header-banner d-flex justify-content-center align-items-center"
+        class="d-flex justify-content-end align-items-end h-100"
       >
-        <div>
           <div
-            class="custom__header-content container text-white text-center mt-5 p-5 rounded-5"
-            style="background: rgba(255, 255, 255, 0.196)"
+            class="text-white text-end mb-5 m-3 m-sm-5"
           >
-            <h1 class="text-uppercase display-1">Vcelarstvi</h1>
-            <h3 class="text-uppercase display-3">jak ma byt</h3>
-            <p class="d-none d-md-block fs-2 mt-2">Ochutnejte nas med</p>
+            <h1 class="text-uppercase display-1">Včelařství</h1>
+            <h3 class="text-uppercase lightGrey display-3">u lesa</h3>
+            <hr class="border-white border-2">
+            <p class="fs-2">Ochutnejte náš med</p>
 
             <!-- SPINAC -->
             <button
@@ -112,22 +113,20 @@
               Koupit
             </button>
           </div>
-        </div>
       </section>
     </div>
 
     <!-- 2.SECTION -->
     <!-- CAROUSEL + TEXT -->
-    <section style="margin-top: 50px; margin-bottom: 20px">
-      <div class="container-xl">
-        <div class="row">
+    <section class="container-fluid" style="margin-top: 80px">
+        <div class="row d-flex justify-content-evenly align-items-center g-5">
           <div
-            id="carouselExampleInterval "
-            class="carousel slide data-bs-ride col-xs-12 col-sm-12 col-md-7 col-xl-7"
+            id="carouselExampleInterval"
+            class="carousel slide data-bs-ride col-12 col-sm-8 col-md-6"
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
+              <div class="carousel-item active" data-bs-interval="5000">
                 <img
                   src="./img/HD-wallpaper-insects-bee-flower-insect-macro-wildlife.jpg"
                   class="d-block w-100"
@@ -175,53 +174,53 @@
             </button>
           </div>
 
-          <div class="col-xs-12 col-sm-12 col-md-5 col-xl-5 m-auto darkGreen">
-            <p class="m-3 fs-3">
-              Lorem ipsum dolor sit amet.<span class="fs-1">
-                Lorem, ipsum dolor. </span
-              >Lorem ipsum dolor sit.
+          <div class=" col-12 col-sm-4 darkGreen">
+            <p class="m-3 display-6">
+              Z úlů přímo k vám. Lokální, <span class="display-4">
+                přírodní</span
+              > a s láskou ručně stáčený.
             </p>
           </div>
         </div>
-      </div>
     </section>
-    <div name="predel" style="border: 2px solid" class="yellow mx-5"></div>
+
+    <hr style="margin-top: 80px" class="border-2 border-black mx-5"/>
 
     <!-- 3.SECTION -->
     <!-- 3 OBRAZKY -->
-    <section style="margin-top: 40px; margin-bottom: 40px">
-      <div class="container-md">
+    <section class="container" style="margin-top: 80px;">
         <div class="row">
           <div class="col-12 col-md-4">
             <img
               src="./img/vcelky.jpg"
-              class="d-none d-sm-none d-xs-block d-md-block d-lg-block mx-auto img-fluid"
+              class="d-block mx-auto img-fluid w-100"
               alt="vcelky"
             />
             <p class="text-center fs-3 darkGreen py-3">
-              Mame nejlepsi ZAMESTNANCE
+              Máme nejlepší<br />ZAMĚSTNANCE
             </p>
           </div>
           <div class="col-12 col-md-4">
             <img
               src="./img/louka.jpg"
-              class="d-none d-sm-none d-xs-block d-md-block d-lg-block d-flex mx-auto img-fluid"
+              class="d-block mx-auto img-fluid w-100"
               alt="vcelky"
             />
             <p class="text-center fs-3 darkGreen py-3">
-              Mame nejlepsi DODAVATELE
+              Máme nejlepší<br />DODAVATELE
             </p>
           </div>
           <div class="col-12 col-md-4">
             <img
               src="./img/slunce.jpg"
-              class="d-none d-sm-none d-xs-block d-md-block d-lg-block d-flex mx-auto img-fluid"
+              class="d-block mx-auto img-fluid w-100"
               alt="vcelky"
             />
-            <p class="text-center fs-3 darkGreen py-3">Mame nejlepsi ZDROJE</p>
+            <p class="text-center fs-3 darkGreen py-3">
+              Máme nejlepší<br/>ZDROJE
+            </p>
           </div>
         </div>
-      </div>
     </section>
 
     <!-- 4.SECTION -->
@@ -260,7 +259,7 @@
       </div>
     </section>
 
-    <div name="predel" style="border: 2px solid" class="yellow mx-5"></div>
+    <div style="border: 2px solid" class="yellow mx-5"></div>
 
     <!-- 5.SECTION -->
     <section style="margin-top: 40px">
@@ -295,9 +294,9 @@
               <span>KONTAKTNI FORMULAR</span>
               <div class="mb-3">
                 <label for="inputName" class="lightGrey"> Jmeno </label>
-                <input type="text" class="form-control" placeholder="Jmeno" />
+                <input id="inputName" type="text" class="form-control" placeholder="Jmeno" />
                 <label for="inputEmail" class="lightGrey"> Email </label>
-                <input type="email" class="form-control" placeholder="Email" />
+                <input id="inputEmail" type="email" class="form-control" placeholder="Email" />
                 <div class="form-text">
                   We'll never share your email with anyone else.
                 </div>
@@ -364,7 +363,7 @@
 
       <div class="text-center p-3 copyright">
         © 2023 Copyright:
-        <a class="lightGreen" style="text-shadow: 2px 0px 2px black" href="">
+        <a class="lightGreen" style="text-shadow: 2px 0 2px black" href="">
           <strong>Marosh Sykora</strong></a
         >
       </div>
@@ -383,7 +382,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="exampleModalLabel">
-                Book yourn journey
+                Objednejte si med
               </h1>
               <button
                 type="button"
@@ -397,45 +396,23 @@
                 <div class="row">
                   <div class="mb-3">
                     <label for="email" class="col-form-label"
-                      >Email address</label
+                      >E-mail</label
                     >
                     <input type="email" class="form-control" id="email" />
                   </div>
                   <div class="mb-3">
-                    <label for="recipient-name" class="col-form-label"
-                      >Your name</label
+                    <label for="name" class="col-form-label"
+                      >Jméno</label
                     >
                     <input
                       type="text"
                       class="form-control"
-                      id="recipient-name"
+                      id="name"
                     />
-                  </div>
-                  <div class="row">
-                    <div class="mb-3 col-6">
-                      <label for="recipient-name" class="col-form-label"
-                        >From</label
-                      >
-                      <input
-                        type="date"
-                        class="form-control"
-                        id="recipient-name"
-                      />
-                    </div>
-                    <div class="mb-3 col-6">
-                      <label for="recipient-name" class="col-form-label"
-                        >To</label
-                      >
-                      <input
-                        type="date"
-                        class="form-control"
-                        id="recipient-name"
-                      />
-                    </div>
                   </div>
                   <div class="mb-3">
                     <label for="recipient-name" class="col-form-label"
-                      >Number of travellers</label
+                      >Počet kusů medu</label
                     >
                     <input
                       type="number"
