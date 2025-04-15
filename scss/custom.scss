@@ -58,6 +58,24 @@ body {
   color: #ebe5e5;
 }
 
+.nav-link:hover {
+  color: #f5a708;
+}
+
+.btn-darkGreen:hover {
+  background-color: #ebe5e5;
+  color: #6b7a07 !important;
+}
+
+.btn-yellow:hover {
+  background-color: #ada400;
+}
+
+.btn-lightGreen:hover {
+  background-color: #ebe5e5;
+  color: #6b7a07 !important;
+}
+
 table {
   border: none;
   color: #ada400;
